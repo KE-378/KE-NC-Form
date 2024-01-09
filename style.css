@@ -1,0 +1,76 @@
+.nav-bar{
+    height: 60px;
+    width: 1500px;
+    display: flex;
+    background-color: black;
+    color: azure;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+.nav-panel p{
+    display: inline;
+    margin-right: 50px;
+    width: 50px;
+
+
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+border: 2px solid rgba(5, 5, 5, 0.847)
+}
+
+.box-1,.box-2,.box-3,.box-4,.box-5,box6:hover{
+    border: solid 2px white;
+    box-shadow: 5px 5px 5px rgb(116, 114, 114);
+}
+
+.box-1{
+    height: 350px;
+width: 200px;
+background-color: orange;
+}
+h2:first-letter{
+    font-size: 100px;
+
+}
+
+.box-2{
+    height: 350px;
+    width: 200px;
+    background-color:rgb(114, 178, 242);    
+}
+.Main-box{
+ display:flex;
+ justify-content: space-evenly;   
+ margin-top: 15px;
+ 
+}
+
+.box-3{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(169, 249, 72);
+
+}
+
+.box-4{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(249, 184, 43);
+}
+.box-5{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(0, 208, 255);
+}
+
+p{
+font-weight: bolder;
+text-align: center;
+}

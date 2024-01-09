@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Connection Application Form</title>
+<link rel="stylesheet" href="style.css">
+<header>
+ <div class="nav-bar">
+    <div class="nav-panel">
+<p class="border">Home</p>
+<p class="border">Bill Payments</p>
+<p class="border">My Account</p>
+<p class="border">Careers</p>
+<p class="border">About Us</p>
+<p class="border">FAQs</p>
+</div>
+</div>
+</header>
+<div class="Main-box">
+<div class="box-1">
+<h2>Customer</h2>
+    <p>We aim to Satisfy our customers and all our stakeholders by anticipating their needs and delivering the best possible solutions and services</p>
+</div>
+<div class="box-2"><h2>Accountable</h2>
+<p> We take ownership,initiative & responsibility for all our actions</p></div>
+<div class="box-3"><h2>Respectful</h2>
+    <p>We Respect each other in all aspects & support our communities</p></div>
+<div class="box-4"><h2>Energised</h2>
+    <p>We are energised to inspire and empower over people</p></div>
+<div class="box-5"><h2>SAfe</h2>
+    <p>We Ensure that safety remains our top priority in all over operations & behaviour</p></div>
+
+</div>
+
+<body >
+<form action="./welcome.html" >
+    <h2>New Connection Create Profile</h2>
+    <h3> <strong>Search NC ID</strong> </h3>
+    </label><input type="search" placeholder="Search NC ID" ><br><br><hr>
+    <h3>Connection Type:</h3>
+    <input type="checkbox" name="Industrial"> <label>Residential</label><br>
+    <input type="checkbox" name="Commercial"> <label>Commertial</label><br>
+    <input type="checkbox" name="Industrial"> <label>Industrial</label><br><br> <hr>
+    <h3> <strong>Service Type</strong> :</h3>
+    <select>
+    <option>Select Service Type</option>
+    <option>Additional Meter</option>
+    <option>Temporary Connection</option>
+    <option>Reinforcement</option>
+    <option>Load Regularization</option>
+    <option>New Connection</option>
+</select><br><hr>
+ <h3><strong>Owners Profile: </strong> </h3>    
+<label> <strong>Name: </strong> </label><input required placeholder="Enter Your Name" id="Name" type="text"> <br><br>
+<label> <strong>Email ID:</strong> </label><input required placeholder="Enter Your Email" id="Email" type="email"><br><br>
+<label> <strong>Password:</strong> </label><input required placeholder="Enter Your Password" id="Password" type="password"><br><br>
+<label> <strong>Contact no.</strong> </label><input required placeholder="Enter Your Contact" id="Contact" type="number"><br><br>
+<label> <strong>Cnic:</strong> </label><input required placeholder="Enter Your Cnic" id="Name" type="number"><br> <hr>
+<h4>Gender:</h4> 
+<input type="radio" name="Gender" "Male" =id="Male" > <label>Male</label> <br>
+ <input type="radio" name="Gender" "Female" =id="Female" > <label>Female</label> <br>
+ <input type="radio" name="Gender" "Other" =id="Other" > <label>Other</label> <br><hr>
+<textarea placeholder="Feedback" cols="20" rows="7"></textarea> <br><hr>
+<label>Upload Required Documents</label> <input type="file" name="upload here" id="Choose File"><br><hr>
+<button type="submit" >Submit</button>
+
+
+
+
+</form>
+
+
+</body>
+</html>
